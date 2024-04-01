@@ -5,8 +5,8 @@ const mysql = require('mysql')
 const db = mysql.createConnection ({
     host:'sql6.freesqldatabase.com',
     user:'sql6695735',
-    password:'yAFC7Lu2yN',
-    database:'sql6695735'
+    database:'sql6695735',
+    password:'yAFC7Lu2yN'
 })
 
 //kirimkan variable keluar untuk digunakan diluar file
