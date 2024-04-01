@@ -4,8 +4,8 @@ const app = express()
 const port = 3001
 //Pemanggil Request body parse (Ternyarta Parse dan Parser berbeda! becarefull install)
 const bodyParser = require('body-parser') 
-//Pemanggil file config.js di index.js
-const db = require('./config.js')
+//Pemanggil file connection.js di index.js
+const db = require('./connection.js')
 //Pemanggil file response.js
 const response = require('./request.js')
 
